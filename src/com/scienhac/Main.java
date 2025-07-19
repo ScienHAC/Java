@@ -5,8 +5,9 @@ public class Main { // classes are in PascalCase
         System.out.println("Hello, World! from the system nice to meet you!");
         int $fun; // $ is allowed in variable names, but not recommended
         int _fun; // _ is allowed in variable names, but not recommended
+        double name = 12;
     }
 }
 //addTwoNumber is camelCase
 //AddTwoNumber is PascalCase
-//char uses unicode characters with UTF - 16 encoding and it is 2 bytes long where normal char is 1 byte long and uses ASCII encoding or we say UTF - 8 encoding
+//char uses Unicode characters with UTF - 16 encoding, and it is 2 bytes long where normal char is 1 byte long and uses ASCII encoding, or we say UTF - 8 encoding
