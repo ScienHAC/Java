@@ -19,6 +19,5 @@ public class Get_Started {
         System.out.println(4 % 2.1);
         System.out.println(y % 2.1);
         System.out.println(y % 2);
-
     }
 }

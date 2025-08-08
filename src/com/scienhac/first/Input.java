@@ -26,3 +26,5 @@ public class Input {
         System.out.println("Has next int: " + t);
     }
 }
+
+//here in java everything executed but the sequence is main followed by other function
