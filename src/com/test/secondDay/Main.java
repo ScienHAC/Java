@@ -18,8 +18,35 @@ public class Main {
         double cal = sc.nextDouble();
         double fh = (9/5.0*cal) + 32;
         System.out.println("\nThe conversion of cal "+cal+" into fahrenheit is: "+fh);
-
         Calc c = new Calc();
+        while (true){
+            System.out.println("Enter operation (+, -, *, /) or 'exit' to quit:");
+            String operation = sc.next();
 
+            if (operation.equals("exit")) {
+                break;
+            }
+
+            System.out.print("Enter first number: ");
+            int num1 = sc.nextInt();
+            System.out.print("Enter second number: ");
+            int num2 = sc.nextInt();
+
+            if (operation.equals("+")) {
+                System.out.println("Result: " + c.add(num1, num2));
+            } else if (operation.equals("-")) {
+                System.out.println("Result: " + c.sub(num1, num2));
+            } else if (operation.equals("*")) {
+                System.out.println("Result: " + c.mul(num1, num2));
+            } else if (operation.equals("/")) {
+                if (num2 != 0) {
+                    System.out.println("Result: " + c.div(num1, num2));
+                } else {
+                    System.out.println("Error: Division by zero!");
+                }
+            } else {
+                System.out.println("Invalid operation!");
+            }
+        }
     }
 }
