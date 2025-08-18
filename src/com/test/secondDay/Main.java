@@ -1,14 +1,14 @@
 package com.test.secondDay;
 import java.util.Scanner;
-class calc{
+class Calc{
     public int add(int a, int b){
         return a+b;
     }public double div(double a, double b){
         return (a/b);
-    }public int div(int a, int b){
+    }public int sub(int a, int b){
         return a-b;
-    }public int add(int a, int b){
-        return a+b;
+    }public int mul(int a, int b){
+        return a*b;
     }
 }
 public class Main {
@@ -18,7 +18,8 @@ public class Main {
         double cal = sc.nextDouble();
         double fh = (9/5.0*cal) + 32;
         System.out.println("\nThe conversion of cal "+cal+" into fahrenheit is: "+fh);
-        Scanner sc1 = new Scanner(System.in);
-        Scanner sc2 = new Scanner(System.in);
+
+        Calc c = new Calc();
+
     }
 }
