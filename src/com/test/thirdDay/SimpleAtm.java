@@ -1,4 +1,4 @@
-package com.test.Third;
+package com.test.thirdDay;
 import java.util.Scanner;
 class Atm{
     double val;

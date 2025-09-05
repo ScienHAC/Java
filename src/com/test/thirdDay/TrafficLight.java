@@ -1,4 +1,4 @@
-package com.test.Third;
+package com.test.thirdDay;
 import java.util.Scanner;
 public class TrafficLight {
     public static void main(String[] args){
