@@ -1,4 +1,4 @@
-package com.test.secondDay;
+package com.krmu.secondDay;
 
 public class Greatest {
     public static void main(String[] args) {

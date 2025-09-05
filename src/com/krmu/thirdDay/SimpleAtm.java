@@ -1,4 +1,4 @@
-package com.test.thirdDay;
+package com.krmu.thirdDay;
 import java.util.Scanner;
 class Atm{
     double val;

@@ -1,4 +1,4 @@
-package com.test.fourthDay;
+package com.krmu.fourthDay;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args){

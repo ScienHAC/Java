@@ -1,4 +1,4 @@
-package com.test.firstDay;
+package com.krmu.firstDay;
 import java.util.Scanner;
 
 class Student{ // by default, it is package-private if no public is use

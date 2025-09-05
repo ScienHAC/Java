@@ -1,4 +1,4 @@
-package com.test.secondDay;
+package com.krmu.secondDay;
 import java.util.Scanner;
 public class leapYear {
     public static void main(String[] args){

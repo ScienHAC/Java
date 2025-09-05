@@ -1,4 +1,4 @@
-package com.test.secondDay;
+package com.krmu.secondDay;
 import java.util.Scanner;
 class Calc{
     public int add(int a, int b){
