@@ -1,5 +1,7 @@
-package com.krmu.thirdDay;
+package com.course.thirdDay;
+
 import java.util.Scanner;
+
 public class MenuDriven {
     public static void main(String[] args) {
         System.out.println("Menu Driven Program");

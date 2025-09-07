@@ -1,4 +1,4 @@
-package com.krmu.secondDay;
+package com.course.secondDay;
 
 public class Greatest {
     public static void main(String[] args) {

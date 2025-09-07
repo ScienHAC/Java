@@ -1,50 +1,56 @@
-package com.krmu.firstDay;
+package com.course.firstDay;
+
 import java.util.Scanner;
 
-class Student{ // by default, it is package-private if no public is use
+class Student { // by default, it is package-private if no public is use
+    Scanner sc = new Scanner(System.in);
     private int Rno;
     private double marks;
     private String name, course;
     private char Grade;
 
-    Scanner sc = new Scanner(System.in);
+    Student(int rno, String n, double m, String c) {
+        setRno(rno);
+        setName(n);
+        setMarks(m);
+        setCourse(c);
+    }
 
-    void setRno(int rno){
+    Student() {
+//        default constructor
+    }
+
+    void setRno(int rno) {
         this.Rno = rno;
     }
-    void setMarks(double m){
+
+    void setMarks(double m) {
         this.marks = m;
     }
-    void setName(String n){
+
+    void setName(String n) {
         this.name = n;
     }
-    void setCourse(String c){
+
+    void setCourse(String c) {
         this.course = c;
     }
-    private void setGrade(){
-        if(marks >= 90){
+
+    private void setGrade() {
+        if (marks >= 90) {
             Grade = 'A';
-        } else if(marks >= 80){
+        } else if (marks >= 80) {
             Grade = 'B';
-        } else if(marks >= 70){
+        } else if (marks >= 70) {
             Grade = 'C';
-        } else if(marks >= 60){
+        } else if (marks >= 60) {
             Grade = 'D';
         } else {
             Grade = 'F';
         }
     }
 
-    Student(int rno, String n, double m, String c){
-        setRno(rno);
-        setName(n);
-        setMarks(m);
-        setCourse(c);
-    }
-    Student(){
-//        default constructor
-    }
-    void setDetails(){
+    void setDetails() {
         System.out.print("Enter Roll No: ");
         setRno(sc.nextInt());
         sc.nextLine(); // consume newline
@@ -57,19 +63,20 @@ class Student{ // by default, it is package-private if no public is use
         setCourse(sc.nextLine());
     }
 
-    void Display(){
+    void Display() {
         setGrade(); // setting grade based on marks
         System.out.println("Name: " + name);
         System.out.println("Roll No: " + Rno);
         System.out.println("Marks: " + marks);
         System.out.println("Course: " + course);
         System.out.println("Grade: " + Grade);
-        for(int i = 0;i<20;i++) System.out.print("-");
+        for (int i = 0; i < 20; i++) System.out.print("-");
         System.out.println();
     }
 }
+
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Student s1 = new Student();
         s1.setRno(101);
         s1.setName("Alice");
@@ -93,6 +100,6 @@ public class Main {
         Student s4 = new Student();
         s4.setDetails();
         s4.Display();
-   }
+    }
 }
 

@@ -1,5 +1,7 @@
-package com.krmu.fourthDay;
+package com.krmu.Assignment1;
+
 import java.util.Scanner;
+
 class Student {
     private int rollno;
     private String name;
@@ -7,7 +9,7 @@ class Student {
     private double marks;
     private char grade;
 
-    public void inputStudent(){
+    public void inputStudent() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your roll: ");
         this.rollno = sc.nextInt();
@@ -20,21 +22,21 @@ class Student {
         calculateGrade();
     }
 
-    public void calculateGrade(){
-        if(this.marks >= 90){
+    public void calculateGrade() {
+        if (this.marks >= 90) {
             this.grade = 'A';
-        } else if(this.marks >= 80){
+        } else if (this.marks >= 80) {
             this.grade = 'B';
-        } else if(this.marks >= 70){
+        } else if (this.marks >= 70) {
             this.grade = 'C';
-        } else if(this.marks >= 60){
+        } else if (this.marks >= 60) {
             this.grade = 'D';
         } else {
             this.grade = 'F';
         }
     }
 
-    public void displayStudent(){
+    public void displayStudent() {
         System.out.println("Roll No: " + this.rollno);
         System.out.println("Name: " + this.name);
         System.out.println("Course: " + this.course);

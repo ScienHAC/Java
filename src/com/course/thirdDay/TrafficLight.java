@@ -1,7 +1,9 @@
-package com.krmu.thirdDay;
+package com.course.thirdDay;
+
 import java.util.Scanner;
+
 public class TrafficLight {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Traffic Light Simulation enter choice to change color: ");
         Scanner sc = new Scanner(System.in);
         int lightColor = sc.nextInt();

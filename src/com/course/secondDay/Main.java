@@ -1,25 +1,34 @@
-package com.krmu.secondDay;
+package com.course.secondDay;
+
 import java.util.Scanner;
-class Calc{
-    public int add(int a, int b){
-        return a+b;
-    }public double div(double a, double b){
-        return (a/b);
-    }public int sub(int a, int b){
-        return a-b;
-    }public int mul(int a, int b){
-        return a*b;
+
+class Calc {
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public double div(double a, double b) {
+        return (a / b);
+    }
+
+    public int sub(int a, int b) {
+        return a - b;
+    }
+
+    public int mul(int a, int b) {
+        return a * b;
     }
 }
+
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Temperature in cal: ");
         double cal = sc.nextDouble();
-        double fh = (9/5.0*cal) + 32;
-        System.out.println("\nThe conversion of cal "+cal+" into fahrenheit is: "+fh);
+        double fh = (9 / 5.0 * cal) + 32;
+        System.out.println("\nThe conversion of cal " + cal + " into fahrenheit is: " + fh);
         Calc c = new Calc();
-        while (true){
+        while (true) {
             System.out.println("Enter operation (+, -, *, /) or 'exit' to quit:");
             String operation = sc.next();
 
