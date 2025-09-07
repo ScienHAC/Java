@@ -1,62 +1,46 @@
 # KRMU College Work 🎓
 
-This folder contains all my college assignments, daily coding practice, and class work for Java programming course.
+This folder contains all college assignments, daily coding practice, and class work for Java programming.
 
-## 📚 Current Assignments & Work
+## 📚 Organization
 
-### 📋 Assignment 1 - Student Management System
-**Location:** `Assignment1/`
-**Files:**
-- `Main.java` - Main program runner
-- `Student.java` - Student class with properties
-- `StudentManagementSystem.java` - Core system logic
+### 📋 Assignments
+Each assignment is organized in its own folder with:
+- Complete source code
+- Proper documentation
+- Clear examples and usage
 
-**Features:**
-- Add new students
-- Display student information
-- Manage student records
+### 📅 Daily Practice
+Daily coding exercises organized by date, focusing on:
+- Specific programming concepts
+- Practical implementations
+- Skill development
 
-### 📅 Daily Practice - September 6th
-**Location:** `day_06_sep/`
-**Files:**
-- `Book.java` - Book entity class
-- `Library.java` - Library management system
-- `Member.java` - Library member class
-- `Main.java` - Program entry point
+## 📝 Code Standards
 
-**Topic:** Library Management System implementation
+- Clean, well-structured code
+- Proper Java naming conventions
+- Comprehensive comments
+- Working examples included
 
-## 📝 Assignment Submission Guidelines
+## 🔄 Structure
 
-- Each assignment is in its own folder
-- All code is properly commented
-- Main class contains clear examples of usage
-- Code follows Java naming conventions
+- Assignments in separate folders for easy identification
+- Daily practice organized chronologically
+- Each folder is self-contained
+- Clear main entry points
 
-## 🔄 Daily Practice Structure
+## 📊 Learning Focus
 
-Daily coding practice is organized by date:
-- `day_DD_MMM/` format for easy identification
-- Contains multiple related Java files
-- Focuses on specific programming concepts
-
-## 📊 Learning Objectives
-
-Through these assignments and daily practice, I'm learning:
-- Object-Oriented Programming concepts
+Through this work, demonstrating understanding of:
+- Object-Oriented Programming principles
 - Java syntax and best practices
-- Problem-solving through code
+- Problem-solving through programming
 - Real-world application development
 
-## 👨‍🏫 For Teachers
+## � Navigation
 
-This repository shows my progress in Java programming through:
-- Completed assignments with proper documentation
-- Daily practice exercises
-- Clean, well-structured code
-- Understanding of OOP concepts
-
-Each folder represents different learning milestones and can be evaluated independently.
+Each folder represents different learning milestones and contains complete, runnable Java programs.
 
 ---
-*Submitted by: [Your Name] | KRMU Student*
+*Progress in Java Programming*
