@@ -7,7 +7,17 @@ class Box {
         this.breadth = breadth;
         this.height = height;
     }
-   public int calvol(){
+    Box(){
+        System.out.println("Default Constructor is Called");
+    }
+
+    public Box(Box b1) {
+        this.length = b1.length;
+        this.breadth = b1.breadth;
+        this.height = b1.height;
+    }
+
+    public int calvol(){
         return (length*breadth*height);
     }
 }
