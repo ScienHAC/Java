@@ -1,4 +1,4 @@
-package com.krmu.Assignment1;
+package com.krmu.Lab_Assignment1;
 
 import java.util.Scanner;
 
