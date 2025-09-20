@@ -12,15 +12,6 @@
             </PendingDiffInfo>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/com/krmu/Assignment1/Main.java">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/src/com/krmu/Assignment1/Main.java" />
-              <option name="originalContent" value="package com.krmu.Assignment1;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        new UserInterface().mainMenu();&#10;    }&#10;}&#10;&#10;" />
-              <option name="updatedContent" value="package com.krmu.Assignment1;&#10;&#10;import java.util.Scanner;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        UserInterface ui = new UserInterface();&#10;        Scanner sc = new Scanner(System.in);&#10;        int choice;&#10;        &#10;        do {&#10;            System.out.println(&quot;\n=== Banking Application ===&quot;);&#10;            System.out.println(&quot;1. Create Account&quot;);&#10;            System.out.println(&quot;2. Deposit Money&quot;);&#10;            System.out.println(&quot;3. Withdraw Money&quot;);&#10;            System.out.println(&quot;4. View Account Details&quot;);&#10;            System.out.println(&quot;5. Update Contact Details&quot;);&#10;            System.out.println(&quot;6. Exit&quot;);&#10;            System.out.print(&quot;Enter choice: &quot;);&#10;            &#10;            choice = sc.nextInt();&#10;            sc.nextLine();&#10;            &#10;            switch (choice) {&#10;                case 1:&#10;                    ui.create();&#10;                    break;&#10;                case 2:&#10;                    ui.deposit();&#10;                    break;&#10;                case 3:&#10;                    ui.withdraw();&#10;                    break;&#10;                case 4:&#10;                    ui.view();&#10;                    break;&#10;                case 5:&#10;                    ui.update();&#10;                    break;&#10;                case 6:&#10;                    System.out.println(&quot;Thank you for using Banking Application!&quot;);&#10;                    break;&#10;                default:&#10;                    System.out.println(&quot;Invalid choice! Please try again.&quot;);&#10;            }&#10;        } while (choice != 6);&#10;        &#10;        sc.close();&#10;    }&#10;}" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/com/krmu/Assignment1/UserInterface.java">
           <value>
             <PendingDiffInfo>
