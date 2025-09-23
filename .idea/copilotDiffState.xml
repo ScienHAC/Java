@@ -21,6 +21,15 @@
             </PendingDiffInfo>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/com/krmu/day_23_sep/Program2/Area.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/com/krmu/day_23_sep/Program2/Area.java" />
+              <option name="originalContent" value="package com.krmu.day_23_sep.Program2;&#10;&#10;class Shape {&#10;    public void area(){&#10;        System.out.println(&quot;hello....&quot;);&#10;    }&#10;}&#10;class Circle extends Shape {&#10;    @Override&#10;    public void area(int a) {&#10;        System.out.println(&quot;Area of the circle: &quot;+(3.14*a*a));&#10;    }&#10;}&#10;&#10;class Rectangle extends Shape {&#10;    @Override&#10;    public void area(int l, int b) {&#10;        System.out.println(&quot;Area of the circle: &quot;+(l*b));&#10;    }&#10;}&#10;&#10;public class Area{&#10;    public static void main(String[] args) {&#10;        Shape s1 = new Circle();&#10;        Shape s2 = new Rectangle();&#10;        s1.area(2);&#10;        s2.area(1,3);&#10;    }&#10;}&#10;&#10;&#10;" />
+              <option name="updatedContent" value="package com.krmu.day_23_sep.Program2;&#10;&#10;class Shape {&#10;    public void area(){&#10;        System.out.println(&quot;hello....&quot;);&#10;    }&#10;}&#10;class Circle extends Shape {&#10;    @Override&#10;    public void area(int a) {&#10;        System.out.println(&quot;Area of the circle: &quot;+(3.14*a*a));&#10;    }&#10;}&#10;&#10;class Rectangle extends Shape {&#10;    @Override&#10;    public void area(int l, int b) {&#10;        System.out.println(&quot;Area of the circle: &quot;+(l*b));&#10;    }&#10;}&#10;&#10;public class Area{&#10;    public static void main(String[] args) {&#10;        Shape s1 = new Circle();&#10;        Shape s2 = new Rectangle();&#10;        s1.area(2);&#10;        s2.area(1,3);&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

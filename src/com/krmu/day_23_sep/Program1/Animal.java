@@ -1,4 +1,4 @@
-package com.krmu.day_23_sep;
+package com.krmu.day_23_sep.Program1;
 
 class Animal {
     public void sound(){
