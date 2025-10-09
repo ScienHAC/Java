@@ -29,6 +29,20 @@ substring method in java
         System.out.println(greeting.indexOf("llo")); // it will return the index of the first occurrence of llo or say the index of substring
         System.out.println(greeting.indexOf("z")); // it will return -1 if the string is not found
         System.out.println(greeting.lastIndexOf("l")); // it will return the index of the last occurrence of l here it is 9
-        System.out.println(greeting.indexOf("l", 4)); // it will return the index of the first occurrence of l after index 4 here it is 9
+        System.out.println(greeting.indexOf("l", 4)); // it will return the index of the first occurrence of l after index 4 here it is 9 here 4 is also included
+        System.out.println(greeting.lastIndexOf("l", 4)); // it will return the index of the last occurrence of l before index 4 here it is 3 here 4 is also included
+//        and lastindexof is return where the substring start from left to right no matter lastindex or index
+        /*
+In both the lastIndexOf or indexOf both will return the index actual index from left to right but the searching is different
+        */
+        System.out.println(greeting.equals("Harry Hello")); // it will return true if the string is equal to Harry Hello otherwise false
+        System.out.println(greeting.equals("harry Hello")); // it will return false as it is case sensitive
+        System.out.println(greeting.equalsIgnoreCase("harry Hello")); // it will return true as it ignores case sensitivity
+//        One Important thing is ******************************************************************************
+//        That when we compare the string to string like a==b where both a and b are object it true for all classes object that when we use a==b so we actually compare there memory what they store
+//        here the object variable actually store the reference of that object
+//        like in c++ the class actually store the reference address like array so it like two pointer we compare so address is differnt and when we use heap so they are in differnt addresss
+//        but when we use String name = "ddf" so these string literal store in special memory in java
+//        The memory name is **String pool** so when we compare it actually return true but not for which created using the new keyword
     }
 }
