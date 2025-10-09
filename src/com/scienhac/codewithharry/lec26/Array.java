@@ -27,5 +27,14 @@ public class Array {
 //        q = {1,2,3,4}; // java not allow these same as c++  as now q is the reference variable not the array variable
         q1 = new int[]{1,2,3,4}; // java allow these same as c++
 //        ***********************************************************************************************************
+//        If array index is out of bound we will get index bound error which will not get in c++
+//        Multidimensional array in java
+        int[][] twoD = new int[3][4]; // 3 rows and 4 columns
+        int[][] twoD1 = {{1,2,3},{4,5,6},{7,8,9}}; // declaration and initialization
+        int[][] twoD2;
+        twoD2 = new int[3][4]; // declaration and memory allocation
+        int[][] twoD3;
+        twoD3 = new int[][]{{1,2,3},{4,5,6},{7,8,9}}; // declaration memory allocation and initialization
+
     }
 }
