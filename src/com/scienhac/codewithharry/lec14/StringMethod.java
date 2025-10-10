@@ -18,7 +18,7 @@ public class StringMethod {
 -------------------String Methods in Java------------------
 substring method in java
  */
-        System.out.println(greeting.substring(0, 5)); // it will print from index 0 to index 4
+        System.out.println(greeting.substring(0, 5)); // it will print from index 0 to index 4 and exclude index 5
         System.out.println(greeting.substring(6)); // it will print from index 6 to end
 //        like python the first is the starting one, and it is the slicing type where it returns the new string
         System.out.println(greeting.replace("rr", "p")); // it will replace all the r with p
@@ -44,5 +44,9 @@ In both the lastIndexOf or indexOf both will return the index actual index from 
 //        like in c++ the class actually store the reference address like array so it like two pointer we compare so address is differnt and when we use heap so they are in differnt addresss
 //        but when we use String name = "ddf" so these string literal store in special memory in java
 //        The memory name is **String pool** so when we compare it actually return true but not for which created using the new keyword
+        /*
+         * String are immutable which mean we can't change the existing data in the string, but we can reassign the string with newer one
+         * We actually use string see most of there method are operation like search data getting new data or modify you see in website or app we actually pass raw string and modify them but not modify the actual one and if we want to store so we reassign them
+         * */
     }
 }
