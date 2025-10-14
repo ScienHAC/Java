@@ -12,15 +12,27 @@ class Base {
     void greet() {
         System.out.println("Good Morning");
     }
+
+    int temp() {
+        System.out.println("I am temp method of base class");
+        return 0;
+    }
 }
 
 class Derived extends Base {
     public Derived(int x) {
 //        super(); optional call to parent constructor by default it run default constructor until you call super with parameters
-        super(5);//multiple super calls are not allowed and it must be the first statement
+        super(5);//multiple super calls are not allowed, and it must be the first statement
         System.out.println("I am a constructor with value " + x);
     }
 
+    public Derived(int x, int y) {
+//        super(); optional call to parent constructor by default it run default constructor until you call super with parameters
+        super(5);//multiple super calls are not allowed, and it must be the first statement
+        System.out.println("I am a constructor with value " + x);
+    }
+
+    @Override
     public int temp() {
         return 0;
     }
