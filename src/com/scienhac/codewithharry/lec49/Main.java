@@ -97,5 +97,6 @@ Would you like me to show a short example combining both — like a static final
 
  */
 public class Main {
-
+// method always override not addition of method
+//    base class if we pass subclass address so it only give more memory and override existing method but the object not any method addition
 }
