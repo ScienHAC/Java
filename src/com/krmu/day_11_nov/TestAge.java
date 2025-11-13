@@ -4,8 +4,19 @@ class checkVote extends Exception{
         super(eM);
     }
 }
-public class Main {
+public class TestAge{
+    static void verify( int age) throws checkVote{
+        if(age < 18){
+            throw new checkVote("AGe is less than 18, sorry can't vote.");
+        }else{
+            System.out.println("you're eligible to vote.");
+        }
+    }
     public static void main(String[] args){
-        System.out.println(args);
+        try{
+            verify(15);
+        }catch(checkVote N){
+            System.out.println("Caught the exception");
+        }
     }
 }
