@@ -8,6 +8,13 @@ package com.scienhac.codewithharry.lec69Multithread;
 //In multithreading java call thread one after another in a time slice manner so it switch between threads very fast giving illusion of parallelism
 // like each next instruction or execution is return one after another by switching between threads
 // like imagine threading example like i type something so a thread that display output realtime what i type other wise the whole output is pass and dispay and second thread which autosave my work in background
+
+
+//Main function itself is a thread and it switch main to other thread
+
+/*
+ * //Main function itself is a thread and it switch main to other thread
+ * */
 class Task1 extends Thread {
     @Override
     public void run() {
