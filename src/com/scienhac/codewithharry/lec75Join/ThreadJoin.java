@@ -1,4 +1,4 @@
-package com.scienhac.codewithharry.lect75Join;
+package com.scienhac.codewithharry.lec75Join;
 /*
 Thread join is actually pausing the execution of the main thread until the thread on which join is called is completed. but it not pause the execution of other threads, that already in the runnable state so think like we can use join and call after the start method of a thread so that the main thread will wait for that thread to finish its execution before moving on to the next line of code.
  */
