@@ -13,6 +13,7 @@ class Student {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your roll: ");
         this.rollno = sc.nextInt();
+        sc.nextLine(); // Consume newline
         System.out.println("Enter your name: ");
         this.name = sc.nextLine();
         System.out.println("Enter your course: ");
