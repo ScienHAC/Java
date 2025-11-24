@@ -46,7 +46,7 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
-        new bcd().a();
+        (new bcd()).a(); //<-- in java the shortcut is to not use parenthesis for new object creation just use new bcd().a();
         new A().show();
         new B().show();
         new B().check();

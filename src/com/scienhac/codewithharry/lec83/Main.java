@@ -9,6 +9,9 @@ If you want to create checked exception then extend Exception class
 RuntimeException is a child class of Exception class so Exception is Bigger than RuntimeException
  */
 
+
+//We have Exception class because the java not aware about all the exception that occur like negative dimension or age greater than 125 so we throw error using exception class so programmer understand that can cause error sometime we create unchecked exception also but it is not a good practice because unchecked exception are due to logical error by programmer so it is better to create checked exception so programmer aware of it and handle it using try catch block
+// the logic to create unchecked is to avoid try catch and sometime we know why programmer let them to input or do something that meaning less like inserting string in array or something so we add an unchecked exception so programmer aware of it and handle it properly
 class MyException extends Exception {
     @Override
     public String toString() { // super.toString call the exception name along with the path + the getMessage method
