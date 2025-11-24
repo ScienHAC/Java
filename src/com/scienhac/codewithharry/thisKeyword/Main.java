@@ -1,6 +1,24 @@
 package com.scienhac.codewithharry.thisKeyword;
 
 //this is tied to the object that in actual memory or the datatype is parent class or subclass it refer to the actual object in the memory
+
+class Abc {
+    void show() {
+        System.out.println(23);
+        this.show();
+    }
+}
+
+class bcd extends Abc {
+    void show() {
+        System.out.println("In BCD show method");
+    }
+
+    void a() {
+        super.show();
+    }
+}
+
 class A {
     int a = 20;
 
@@ -28,6 +46,7 @@ class B extends A {
 
 public class Main {
     public static void main(String[] args) {
+        new bcd().a();
         new A().show();
         new B().show();
         new B().check();

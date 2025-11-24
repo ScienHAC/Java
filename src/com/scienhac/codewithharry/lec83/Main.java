@@ -8,9 +8,6 @@ If you want to create unchecked exception then extend RuntimeException class
 If you want to create checked exception then extend Exception class
 RuntimeException is a child class of Exception class so Exception is Bigger than RuntimeException
  */
-class Abc {
-
-}
 
 class MyException extends Exception {
     @Override
